@@ -1,0 +1,81 @@
+.sda-widget {
+  bottom: 1rem;
+  font: inherit;
+  max-width: min(28rem, calc(100vw - 2rem));
+  position: fixed;
+  right: 1rem;
+  width: 100%;
+  z-index: 20;
+}
+
+.sda-widget details {
+  background: var(--md-default-bg-color, #fff);
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-radius: 0.75rem;
+  box-shadow: 0 0.5rem 2rem rgb(0 0 0 / 18%);
+  overflow: hidden;
+}
+
+.sda-widget summary {
+  background: var(--md-primary-fg-color, #3f51b5);
+  color: var(--md-primary-bg-color, #fff);
+  cursor: pointer;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+}
+
+.sda-panel {
+  max-height: min(38rem, 75vh);
+  overflow: auto;
+  padding: 1rem;
+}
+
+.sda-warning,
+.sda-degraded,
+.sda-risk,
+.sda-boundary {
+  background: #fff4d6;
+  border-left: 0.25rem solid #d88a00;
+  color: #4f3200;
+  padding: 0.6rem 0.75rem;
+}
+
+.sda-risk {
+  border-left-color: #b42318;
+}
+
+.sda-widget label,
+.sda-widget textarea,
+.sda-widget button {
+  display: block;
+  width: 100%;
+}
+
+.sda-widget textarea {
+  box-sizing: border-box;
+  min-height: 5rem;
+  resize: vertical;
+}
+
+.sda-widget button {
+  margin-top: 0.5rem;
+  min-height: 2.5rem;
+}
+
+.sda-widget :focus-visible {
+  outline: 0.2rem solid #1976d2;
+  outline-offset: 0.15rem;
+}
+
+.sda-citations {
+  border-top: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 40rem) {
+  .sda-widget {
+    bottom: 0.5rem;
+    max-width: calc(100vw - 1rem);
+    right: 0.5rem;
+  }
+}

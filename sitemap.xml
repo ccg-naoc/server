@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ccg-naoc.github.io/server/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ccg-naoc.github.io/server/server_manual/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ccg-naoc.github.io/server/topics/compiler_gcc_mpi/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ccg-naoc.github.io/server/topics/jupyterhub_ccg/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ccg-naoc.github.io/server/topics/slurm_user_guide/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ccg-naoc.github.io/server/topics/ssh_proxycommand/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+</urlset>
